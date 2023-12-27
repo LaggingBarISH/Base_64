@@ -6,8 +6,7 @@
 #include "tools.h"
 #include "base64.h"
 
-#define DEBUG
-#include "leak_detector.h"
+#define B64_Padding '='
 
 char* B64_Alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 
